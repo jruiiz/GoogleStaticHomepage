@@ -1,0 +1,187 @@
+/* #region Main starter properties */
+
+* {
+    /* So padding doesn't effect width */
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #endregion */
+
+/* #region Main content/containers */
+
+.container {
+    text-align: center;
+}
+
+.main-logo {
+    margin-top: 217px;
+    width: auto;
+    margin-left: 90px;
+    height: 100px;
+}
+
+.search-bar-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 42px;
+    left: 640px;
+}
+
+.fake-search-bar-container {
+    margin-top: 30px;
+}
+
+.btn-container {
+    margin-top: 25px;
+}
+
+/* #endregion */
+
+/* #region Search bar properties */
+
+.content {
+    /* border: 1px black solid; */
+    width: 5%;
+    overflow: hidden;
+}
+
+.search-bar-form  {
+    width: 80%;
+}
+
+.search-bar {
+    width: 550px;
+    height: 30px;
+    border: none;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+input[type="text"]
+{
+    font-size: 1.4em;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.search-icon {
+    padding-right: 50px;
+}
+
+.microphone-icon {
+    padding-left: 10px;
+}
+
+/* #endregion */
+
+/* #region Fake search bar properties */
+
+.fake-search-bar input{
+    border: 1px rgba(128, 128, 128, 0.349) solid;
+    width: 620px;
+    height: 50px;
+    border-radius: 24px;
+}
+
+/* Removes this weird tint that it has when the search bar is disabled */
+.fake-search-bar input:disabled {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fake-search-bar input:hover {
+    transition: ease-in-out 0.1s;
+    border: 0px rgba(128, 128, 128, 0.411) solid;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* #endregion */
+
+/* #region Links and overall top available selections */
+
+.links div{
+    display: inline;
+}
+
+.top-right-content {
+    float: right;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+.icons {
+    float: right;
+    margin-top: -15px;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+
+.top-left-content {
+    float: left;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.links-content {
+    margin: 10px 10px; 
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.account-icon {
+    position: relative;
+    top: 8px;
+}
+
+.account-icon:hover {
+    cursor: pointer;
+}
+
+.extra-options-icon {
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
+    margin-left: 5px;
+    padding-right: 5px;
+}
+
+.extra-options-icon:hover {
+    cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region Buttons */
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.05em;
+    margin: 5px;
+}
+
+.btn-text {
+    color: gray;
+}
+
+.btn-text:hover {
+    color: black;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.753);
+}
+
+/* #endregion */
