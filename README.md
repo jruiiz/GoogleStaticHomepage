@@ -1,5 +1,3 @@
 # GoogleStaticHomepage
-Was just a quick practice of Google's homepage.
-It is not reactive. 
-That can be seen with the search bar when the screen is shrunk. 
-Was just trying to place things onto the page and style them accordingly.
+Google static home page that was done as a project to test html and css basic skills.
+Demonstrates the fundamentals of developing a basic home page with proper positioning. 
